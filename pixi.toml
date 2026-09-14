@@ -1,0 +1,20 @@
+[workspace]
+authors = ["Dmitrii Laptop <babaevdmitri@gmail.com>"]
+channels = ["conda-forge"]
+name = "prepared"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.7,<3.15"
+pandas = ">=3.0.5,<4"
+matplotlib = ">=3.11.1,<4"
+jupyter = ">=1.1.1,<2"
+reaktoro = ">=2.13.0,<3"
+openpyxl = ">=3.1.5,<4"
+scipy = ">=1.18.1,<2"
+
+[pypi-dependencies]
+phreeqpython = ">=1.6.2, <2"
